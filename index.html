@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chick-fil-A</title>
+  <meta charset="UTF-8">
+  <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-size: 28px;
+    color: #d40000;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .order-btn {
+    background-color: #d40000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .hero {
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-text {
+    max-width: 700px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    border-radius: 20px;
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    background-color: #fff;
+    color: #d40000;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .features {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .features-grid {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .feature-card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .feature-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .feature-card h3 {
+    margin: 15px 0 10px;
+    color: #d40000;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <div class="logo">Chick-fil-A</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index2.html">Menu</a></li>
+          <li><a href="index3.html">About</a></li>
+        </ul>
+      </nav>
+      <a href="index4.html" class="order-btn">Order Now</a>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Delicious Chicken. Fast & Fresh.</h1>
+      <p>Your favorite meals made with care, ready for pickup or delivery.</p>
+      <a href="#" class="cta-btn">Explore Menu</a>
+    </div>
+  </section>
+  <section class="features">
+    <div class="container features-grid">
+      <div class="feature-card">
+        <img src="img/450x450.png" alt="Chicken Sandwich">
+        <h3>Chicken Sandwich</h3>
+        <p>The classic you've been craving.</p>
+      </div>
+      <div class="feature-card">
+        <img src="img/cheese.png" alt="Mac and Cheese">
+        <h3>Mac & Cheese</h3>
+        <p>Comfort food at its finest.</p>
+      </div>
+      <div class="feature-card">
+        <img src="img/450x450 (1).png" alt="Iced Tea">
+        <h3>Iced Tea</h3>
+        <p>Freshly brewed every day.</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container footer-content">
+      <p>2025 Chick-fil-A Inspired. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Help</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+        window.onload = function() {
+      alert("Welcome to Chick-fil-A!");
+    };
+  </script>
+</body>
+</html>
